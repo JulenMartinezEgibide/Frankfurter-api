@@ -20,14 +20,14 @@ struct DivisaListView: View {
                 
                 List {
                     ForEach(divisa.rates.sorted(by: { $0.key < $1.key }), id: \.key) { key, value in
-                        NavigationLink(destination: DivisaDetailView(divisaName: key, divisaValue: value)) {
+                        NavigationLink(destination: DivisaDetailView(divisaName: key,divisaValue: value)) {
                             HStack {
                                 Text("\(key):")
                                 Spacer()
                                 Text("\(value, specifier: "%.4f")")
                             }
                         }
-                    }
+                    } 
                     .listStyle(PlainListStyle()) // Optional: to remove default list style
                 }
             }
