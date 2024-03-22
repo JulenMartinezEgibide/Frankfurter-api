@@ -9,6 +9,7 @@ import SwiftUI
 
 struct DivisaListView: View {
     var body: some View {
+<<<<<<< HEAD
 <<<<<<< 680753cefb3cfe95b77d93ec2991836f5e525a37
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
 =======
@@ -39,6 +40,9 @@ struct DivisaListView: View {
             .navigationTitle("Divisa List")
         }
 >>>>>>> 1.1
+=======
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+>>>>>>> parent of 22abaf2 (.)
     }
 }
 
