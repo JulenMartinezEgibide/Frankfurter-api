@@ -8,11 +8,16 @@
 import SwiftUI
 
 struct DivisaListView: View {
+    var divisa: Divisa
+    
     var body: some View {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< 680753cefb3cfe95b77d93ec2991836f5e525a37
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
 =======
+=======
+>>>>>>> 424f2a85a0fc296f37c381b0c4467a89810e69dc
         NavigationView {
             VStack(alignment: .leading, spacing: 10) {
                 Text("Amount: \(divisa.amount, specifier: "%.2f")")
@@ -39,13 +44,16 @@ struct DivisaListView: View {
             .padding()
             .navigationTitle("Divisa List")
         }
+<<<<<<< HEAD
 >>>>>>> 1.1
 =======
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
 >>>>>>> parent of 22abaf2 (.)
+=======
+>>>>>>> 424f2a85a0fc296f37c381b0c4467a89810e69dc
     }
 }
 
 #Preview {
-    DivisaListView()
+    DivisaListView(divisa: Mockdata.divisa)
 }
