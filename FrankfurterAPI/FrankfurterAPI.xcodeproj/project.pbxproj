@@ -19,6 +19,7 @@
 		C28B16F62B9F9EBF00E2FC5D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28B16F42B9F9EBF00E2FC5D /* NetworkManager.swift */; };
 		C28B16F82B9F9EEC00E2FC5D /* DivisaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28B16F72B9F9EEC00E2FC5D /* DivisaViewModel.swift */; };
 		C28B16FA2B9F9F5F00E2FC5D /* Divisa.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28B16F92B9F9F5F00E2FC5D /* Divisa.swift */; };
+		C2DD834F2BAE077E0073F6A0 /* DivisaDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DD834E2BAE077E0073F6A0 /* DivisaDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		C28B16F42B9F9EBF00E2FC5D /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		C28B16F72B9F9EEC00E2FC5D /* DivisaViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DivisaViewModel.swift; sourceTree = "<group>"; };
 		C28B16F92B9F9F5F00E2FC5D /* Divisa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Divisa.swift; sourceTree = "<group>"; };
+		C2DD834E2BAE077E0073F6A0 /* DivisaDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisaDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				C2446FDE2BADF609000C6A28 /* DivisaListView.swift */,
+				C2DD834E2BAE077E0073F6A0 /* DivisaDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 				C28B16F52B9F9EBF00E2FC5D /* WError.swift in Sources */,
 				C28B16F82B9F9EEC00E2FC5D /* DivisaViewModel.swift in Sources */,
 				C28B16FA2B9F9F5F00E2FC5D /* Divisa.swift in Sources */,
+				C2DD834F2BAE077E0073F6A0 /* DivisaDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
