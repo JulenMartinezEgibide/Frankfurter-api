@@ -163,19 +163,8 @@
 		C28B16F12B9F9E9600E2FC5D /* Views */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< 680753cefb3cfe95b77d93ec2991836f5e525a37
-=======
 				C2B8F72B2BAB53DB00794A0A /* DivisaListView.swift */,
 				C2446FDA2BADDA49000C6A28 /* DivisaDetailView.swift */,
->>>>>>> 1.1
-=======
->>>>>>> parent of 22abaf2 (.)
-=======
-				C2B8F72B2BAB53DB00794A0A /* DivisaListView.swift */,
-				C2446FDA2BADDA49000C6A28 /* DivisaDetailView.swift */,
->>>>>>> 424f2a85a0fc296f37c381b0c4467a89810e69dc
 			);
 			path = Views;
 			sourceTree = "<group>";
