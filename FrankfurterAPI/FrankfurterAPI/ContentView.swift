@@ -7,17 +7,16 @@
 
 import SwiftUI
 
+
+
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
-}
+    @ObservedObject var divisal = DivisaViewModel()
+    
+       var body: some View {
+           DivisaListView(divisa: divisal.divisas)
+       }
+   }
+
 
 #Preview {
     ContentView()

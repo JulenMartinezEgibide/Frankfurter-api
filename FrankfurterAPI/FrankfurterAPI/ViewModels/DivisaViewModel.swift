@@ -10,7 +10,7 @@ import Foundation
 @MainActor
 class DivisaViewModel: ObservableObject{
     
-    @Published var divisas: [Divisa] = []
+    @Published var divisas: Divisa = Divisa(amount: 0, base: "", date: "", rates: [:])
     
     init(){
         getProducts()
@@ -19,7 +19,7 @@ class DivisaViewModel: ObservableObject{
     func getProducts(){
             Task{ //hace que sea asíncrona la tarea, consiguiendo concurrencia
                 do{
-                    let divisas = try await NetworkManager.shared.getProducts()
+                    let divisas = try await NetworkManager.shared.getDivisas()
                     self.divisas = divisas
                     print(divisas)
                 }catch{

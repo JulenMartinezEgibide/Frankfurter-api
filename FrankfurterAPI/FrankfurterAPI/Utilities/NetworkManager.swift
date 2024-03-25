@@ -12,9 +12,9 @@ class NetworkManager {
 
     static let shared = NetworkManager()
     
-    private let baseUrl = "https://fakestoreapi.com/products"
+    private let baseUrl = "https://api.frankfurter.app/latest"
     
-    func getProducts() async throws -> [Divisa]{
+    func getDivisas() async throws -> Divisa{
         guard let completeUrl =  URL(string: baseUrl ) else {
             throw WError.invalidURL
         }
@@ -23,7 +23,7 @@ class NetworkManager {
        
         do{
             let decoder = JSONDecoder()
-            return try decoder.decode([Divisa].self, from: data)
+            return try decoder.decode(Divisa.self, from: data)
         }catch{
             throw WError.invalidURL
         }

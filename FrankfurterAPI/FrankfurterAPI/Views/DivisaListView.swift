@@ -7,9 +7,9 @@
 
 import SwiftUI
 
-struct DivisaDetail: View {
+struct DivisaListView: View {
     let divisa: Divisa
-
+    
     var body: some View {
             NavigationView {
                 VStack(alignment: .leading, spacing: 10) {
@@ -41,6 +41,6 @@ struct DivisaDetail: View {
 }
 
 #Preview {
-    DivisaDetail(divisa: Mockdata.divisa)
+    DivisaListView(divisa: Mockdata.divisa)
 }
 
